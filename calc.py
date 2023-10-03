@@ -6,7 +6,7 @@ class Calculator:
     def add(self):
         return self.a + self.b
 
-    def subtract(self):
+    def difference(self):
         return self.a - self.b
 
     def multiply(self):
@@ -24,3 +24,6 @@ class Calculator:
             
     def square(self):
         return self.a * self.a
+    
+    def modulo(self):
+        pass
