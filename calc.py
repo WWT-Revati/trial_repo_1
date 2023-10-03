@@ -18,6 +18,6 @@ class Calculator:
         # implement the division operation
         # adding different implementation
         try:
-            return self.b / self.a
+            return self.a / self.a
         except ZeroDivisionError:
             print("[ERROR] Can't divide by zero!")
