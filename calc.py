@@ -18,12 +18,12 @@ class Calculator:
         # implement the division operation
         # adding different implementation
         try:
-            return self.a / self.a
+            return self.a / self.b
         except ZeroDivisionError:
             print("[ERROR] Can't divide by zero!")
             
     def square(self):
-        return self.a * self.a
+        return self.b * self.b
     
     def modulo(self):
-        pass
+        return self.a % self.b
