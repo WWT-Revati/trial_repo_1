@@ -16,7 +16,3 @@ class Calculator:
         # TODO:- Add your code in the below function
         # check for divide by zero error, using assert statements
         # implement the division operation
-        try:
-            return self.a / self.b
-        except ZeroDivisionError:
-            print("[ERROR] Can't divide by zero!")
