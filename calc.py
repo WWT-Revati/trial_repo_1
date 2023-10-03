@@ -16,3 +16,4 @@ class Calculator:
         # TODO:- Add your code in the below function
         # check for divide by zero error, using assert statements
         # implement the division operation
+        return self.a / self.b
