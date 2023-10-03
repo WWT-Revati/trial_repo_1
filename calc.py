@@ -6,7 +6,7 @@ class Calculator:
     def add(self):
         return self.a + self.b
 
-    def difference(self):
+    def subtract(self):
         return self.a - self.b
 
     def multiply(self):
@@ -21,3 +21,6 @@ class Calculator:
             return self.a / self.a
         except ZeroDivisionError:
             print("[ERROR] Can't divide by zero!")
+            
+    def square(self):
+        return self.a * self.a
